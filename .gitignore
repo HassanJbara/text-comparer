@@ -33,3 +33,4 @@ env/
 Thumbs.db
 .sesskey
 data/
+.env
