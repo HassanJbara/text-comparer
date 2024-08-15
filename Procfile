@@ -1,0 +1,1 @@
+web: python main.py --api_token $API_TOKEN --port $PORT
