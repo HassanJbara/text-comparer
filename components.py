@@ -19,7 +19,7 @@ def TextCard(
     text_id,
     chosen,
     text,
-    cls="flex-1 prose cursor-pointer border-2 h-full max-h-full overflow-auto w-2/5 max-w-3xl bg-base-300 p-4 rounded-box text-xl",
+    cls="flex-1 prose cursor-pointer border-2 h-full max-h-full overflow-auto w-2/5 max-w-3xl bg-base-300 p-4 rounded-box text-xl text-gray-300",
     **kwargs,
 ):
     card_cls = cls

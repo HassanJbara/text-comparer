@@ -228,6 +228,7 @@ def get(id: int, session, request):
         del session["show_toast"]
 
     return (
+        Title("Human-Like LLMs"),
         Body(
             Header(email, (session["session_id"] if debug and not is_mobile else None)),
             TextComparison(
